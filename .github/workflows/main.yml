@@ -12,5 +12,5 @@ jobs:
           - name: Install surge
             uses: actions/setup-node@v1
             with:
-              node-version: 14
+              node-version: "14.x"
           - run: npm install -g surge
